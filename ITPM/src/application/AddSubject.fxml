@@ -262,7 +262,7 @@
                         </HBox>
                         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                            <children>
-                              <ComboBox fx:id="selelectOfferedYear" prefWidth="150.0" />
+                              <ComboBox fx:id="combobox" prefWidth="150.0" />
                            </children>
                         </HBox>
                      </children>
@@ -280,12 +280,12 @@
                         </HBox>
                         <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
                            <children>
-                              <RadioButton fx:id="semOne" mnemonicParsing="false" text="1st Semester">
+                              <RadioButton fx:id="semOne" mnemonicParsing="false" onAction="#semesterRadioBtn" text="1st Semester">
                                  <HBox.margin>
                                     <Insets left="25.0" />
                                  </HBox.margin>
                               </RadioButton>
-                              <RadioButton fx:id="semTwo" mnemonicParsing="false" prefHeight="18.0" prefWidth="87.0" text="2nd Semester" />
+                              <RadioButton fx:id="semTwo" mnemonicParsing="false" onAction="#semesterRadioBtn" prefHeight="18.0" prefWidth="87.0" text="2nd Semester" />
                            </children>
                         </HBox>
                      </children>
@@ -460,7 +460,7 @@
                      <children>
                         <ImageView fx:id="companyLogo" fitHeight="61.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../logo.png" />
+                              <Image url="@../../../../../Desktop/Y3S1%20ITPM%20project/logo.png" />
                            </image>
                         </ImageView>
                      </children>

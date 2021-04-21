@@ -245,28 +245,18 @@
                         </HBox>
                      </children>
                   </HBox>
-                  <HBox prefHeight="142.0" prefWidth="747.0" VBox.vgrow="ALWAYS">
-                     <padding>
-                        <Insets bottom="150.0" />
-                     </padding>
-                     <children>
-                        <TableView fx:id="manageSubTable" prefHeight="85.0" prefWidth="748.0">
-                           <columns>
-                              <TableColumn prefWidth="85.0" text="Year" />
-                              <TableColumn prefWidth="85.0" text="Semester" />
-                              <TableColumn prefWidth="100.0" text="Name" />
-                              <TableColumn text="Code" />
-                              <TableColumn prefWidth="85.0" text="Tute Hourse" />
-                              <TableColumn prefWidth="85.0" text="Lab Hourse" />
-                              <TableColumn prefWidth="110.0" text="Evaluation Hourse" />
-                              <TableColumn prefWidth="90.0" text="Lecture Hourse" />
-                           </columns>
-                           <HBox.margin>
-                              <Insets />
-                           </HBox.margin>
-                        </TableView>
-                     </children>
-                  </HBox>
+                  <TableView fx:id="manageSubTable" prefHeight="85.0" prefWidth="748.0">
+                     <columns>
+                        <TableColumn prefWidth="85.0" text="Year" />
+                        <TableColumn prefWidth="85.0" text="Semester" />
+                        <TableColumn prefWidth="100.0" text="Name" />
+                        <TableColumn text="Code" />
+                        <TableColumn prefWidth="85.0" text="Tute Hourse" />
+                        <TableColumn prefWidth="85.0" text="Lab Hourse" />
+                        <TableColumn prefWidth="110.0" text="Evaluation Hourse" />
+                        <TableColumn prefWidth="90.0" text="Lecture Hourse" />
+                     </columns>
+                  </TableView>
                   <HBox prefHeight="60.0" prefWidth="747.0">
                      <children>
                         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
@@ -478,7 +468,7 @@
                      <children>
                         <ImageView fx:id="companyLogo" fitHeight="61.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../logo.png" />
+                              <Image url="@../../../../../Desktop/Y3S1%20ITPM%20project/logo.png" />
                            </image>
                         </ImageView>
                      </children>

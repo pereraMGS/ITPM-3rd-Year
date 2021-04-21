@@ -471,7 +471,7 @@
                      <children>
                         <ImageView fx:id="companyLogo" fitHeight="61.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../logo.png" />
+                              <Image url="@../../../../../Desktop/Y3S1%20ITPM%20project/logo.png" />
                            </image>
                         </ImageView>
                      </children>
