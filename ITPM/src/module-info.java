@@ -6,5 +6,5 @@ module ITPM {
 	requires java.sql;
 	requires java.desktop;
 	
-	opens application to javafx.graphics, javafx.fxml;
+	opens application to javafx.graphics,javafx.base, javafx.fxml;
 }
